@@ -2,6 +2,8 @@
   "name": "subscriber-utility",
   "version": "0.1.0",
   "private": true,
+  "author": "Lee Wise <me@theleewise.com> (https://theleewise.com)",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +11,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mailchimp/mailchimp_transactional": "^1.0.50",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@svgr/webpack": "^8.0.1",
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
