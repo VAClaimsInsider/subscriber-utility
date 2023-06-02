@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Head from 'next/head';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -52,6 +53,10 @@ export default function Home() {
 
   return (
     <main>
+      <Head>
+        <title>VACI - Subscriber Utility</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
       <Box sx={{ marginTop: '20vh' }}>
         <Container maxWidth="sm">
           <Box textAlign='center' sx={{ marginBottom: 3 }}><Logo width='200' /></Box>
